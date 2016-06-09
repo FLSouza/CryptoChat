@@ -1,18 +1,47 @@
 package br.com.ucb.cryptochat.main;
 
-import java.io.IOException;
-import java.io.PrintStream;
-import java.net.Socket;
-import java.net.UnknownHostException;
-import java.util.Scanner;
+import br.com.ucb.cryptochat.interfaces.Server;
+import br.com.ucb.cryptochat.model.Message;
+import br.com.ucb.cryptochat.model.Reader;
+import br.com.ucb.cryptochat.util.SettingsUtil;
 
-import br.com.ucb.cryptochat.client.EmissorDeMensagem;
-import br.com.ucb.cryptochat.client.ReceptorDeMensagem;
-import br.com.ucb.cryptochat.client.TelaChat;
+import javax.net.SocketFactory;
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLSocketFactory;
+import javax.rmi.ssl.SslRMIClientSocketFactory;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.util.List;
 
 public class Client {
-	public static void main(String[] args) throws UnknownHostException, IOException {
-		Socket socket = new Socket("127.0.0.1", 10000);
+
+    public static void main(String[] args) throws Exception {
+
+        SettingsUtil.setSSLProperty();
+
+        SSLSocketFactory sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
+        SSLSocket sslsocket = (SSLSocket) sslsocketfactory.createSocket("localhost", Server.PORT);
+
+        Reader reader = new Reader(sslsocket);
+        reader.start();
+
+        br.com.ucb.cryptochat.model.Client client = new br.com.ucb.cryptochat.model.Client(sslsocket.getInetAddress(), sslsocket.getLocalPort(), "jonathan");
+
+        Registry registry = LocateRegistry.getRegistry(null, Server.RMI_PORT, new SslRMIClientSocketFactory());
+        Server server = (Server) registry.lookup(Server.class.getSimpleName());
+
+        List<br.com.ucb.cryptochat.model.Client> clients = server.getsClients();
+
+        System.out.println("Clients: " + clients);
+
+        server.sendMessage(new Message("Olá", client, client));
+
+        Thread.sleep(1000);
+
+        server.sendMessage(new Message("Olá", client, client));
+
+        /*
+        Socket socket = new Socket("127.0.0.1", 10000);
 
 		PrintStream saida = new PrintStream(socket.getOutputStream());
 
@@ -26,5 +55,6 @@ public class Client {
 
 		Thread pilha = new Thread(receptor);
 		pilha.start();
-	}
+		*/
+    }
 }

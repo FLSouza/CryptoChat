@@ -1,0 +1,11 @@
+Using the Java Secure Socket Extensions
+https://www.owasp.org/index.php/Using_the_Java_Secure_Socket_Extensions
+
+JAVA + SSL Tutorial (server and client examples)
+http://stilius.net/java/java_ssl.php
+
+Java Remote Method Invocation (RMI) with Secure Socket Layer (SSL)
+http://codeoftheday.blogspot.com.br/2013/07/java-remote-method-invocation-rmi-with.html
+
+Handshake failure when using jconsole with ssl
+http://stackoverflow.com/questions/10416571/handshake-failure-when-using-jconsole-with-ssl
