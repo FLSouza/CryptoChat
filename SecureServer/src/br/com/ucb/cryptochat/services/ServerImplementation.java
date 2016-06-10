@@ -65,7 +65,7 @@ public class ServerImplementation extends UnicastRemoteObject implements Server 
                 return false;
             }
         } else {
-            System.out.println("Not contain");
+            System.out.println(message.getRecipient().getAddress() + "not logged.");
             return false;
         }
     }

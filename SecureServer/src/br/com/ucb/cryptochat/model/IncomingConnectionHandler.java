@@ -1,7 +1,5 @@
 package br.com.ucb.cryptochat.model;
 
-import br.com.ucb.cryptochat.util.IOObjectUtil;
-
 import java.io.*;
 import java.net.Socket;
 

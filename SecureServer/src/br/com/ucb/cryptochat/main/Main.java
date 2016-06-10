@@ -23,20 +23,28 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            // Initialize security properties
             SettingsUtil.setSSLProperty();
 
-            // Configure Socket
+            // Singleton handling the clients
+            ServerImplementation serverImplementation = ServerImplementation.getInstance();
+
+            // Configure Server Secure Socket
             SSLServerSocketFactory factory = (SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
             SSLServerSocket serverSocket = (SSLServerSocket) factory.createServerSocket(Server.PORT);
 
-            // Configure RMI
+            // Configure Secure RMI
             Registry registry = LocateRegistry.getRegistry(null, Server.RMI_PORT, new SslRMIClientSocketFactory());
-            ServerImplementation serverImplementation = ServerImplementation.getInstance();
-            registry.bind(Server.class.getSimpleName(), serverImplementation);
+            registry.bind("rmi://localhost/crypto_chat", serverImplementation);
 
             while (true) {
+                // Wait for new connections
                 SSLSocket socket = (SSLSocket) serverSocket.accept();
+
+                // Create a new @{Client} over the @{SSLSocket}.
                 Client client = new Client(socket.getInetAddress(), socket.getPort());
+
+                // Save into Singleton.
                 serverImplementation.addClient(client, socket);
             }
         } catch (Exception e) {

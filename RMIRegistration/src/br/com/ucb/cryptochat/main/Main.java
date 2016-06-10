@@ -12,14 +12,16 @@ import java.rmi.registry.LocateRegistry;
  */
 public class Main {
 
-    public static void main(String[] args) {
+    public static synchronized void main(String[] args) {
         try {
             SettingsUtil.setSSLProperty();
 
+            // Configure Secure RMI
             LocateRegistry.createRegistry(Server.RMI_PORT, new SslRMIClientSocketFactory(), new SslRMIServerSocketFactory(null, null, true));
             System.out.println("RMI registry running on port " + Server.RMI_PORT);
-            while (true) {
-            }
+
+            // Blocking the application to terminate itself.
+            Main.class.wait();
         } catch (Exception e) {
             e.printStackTrace();
         }
