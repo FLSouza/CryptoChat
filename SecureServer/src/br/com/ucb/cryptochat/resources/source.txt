@@ -1,7 +1,7 @@
 Using the Java Secure Socket Extensions
 https://www.owasp.org/index.php/Using_the_Java_Secure_Socket_Extensions
 
-JAVA + SSL Tutorial (server and client examples)
+JAVA + SSL Tutorial (server and currentClient examples)
 http://stilius.net/java/java_ssl.php
 
 Java Remote Method Invocation (RMI) with Secure Socket Layer (SSL)

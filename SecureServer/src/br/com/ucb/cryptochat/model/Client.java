@@ -52,7 +52,11 @@ public class Client implements Serializable {
     }
 
     public String getUsername() {
-        return username;
+        if (this.username != null) {
+            return username;
+        } else {
+            return getAddress().getHostName();
+        }
     }
 
     public void setUsername(String username) {

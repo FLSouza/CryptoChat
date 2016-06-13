@@ -2,69 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f9b8f1-8ff5-4531-a6a7-4b4570c35c10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/certificate.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/certificate.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Chat/br/com/ucb/cryptochat/main/Server.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Chat/br/com/ucb/cryptochat/server/Distribuidor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Chat/br/com/ucb/cryptochat/server/Emissor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Chat/br/com/ucb/cryptochat/server/Receptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Chat/br/com/ucb/cryptochat/server/Registrador.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/EmissorDeMensagem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/ReceptorDeMensagem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/TelaChat$1EnviaMensagemListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/TelaChat.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/main/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RMIRegistration/br/com/ucb/cryptochat/main/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/interfaces/Server.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/main/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/IncomingConnectionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Message.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Reader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Writer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/resources/certificate.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/resources/certificate.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/services/ServerImplementation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/util/IOObjectUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/util/SettingsUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/main/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/model/IncomingConnectionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/resources/certificate.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chat/Chat.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/Client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RMIRegistration/RMIRegistration.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/SecureServer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/interfaces/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Reader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Writer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/source.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/util/SettingsUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/resources/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/resources/source.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/resources/certificate.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/resources/certificate.csr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/resources/links.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/resources/private.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Server/br/com/ucb/cryptochat/resources/public.pem" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/util/IOObjectUtil.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/TelaChat.java" afterPath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/TelaChat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/main/Client.java" afterPath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/main/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RMIRegistration/src/br/com/ucb/cryptochat/main/Main.java" afterPath="$PROJECT_DIR$/RMIRegistration/src/br/com/ucb/cryptochat/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/ChatScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/MAin.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/EmissorDeMensagem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/ReceptorDeMensagem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/TelaChat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/main/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/EmissorDeMensagem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/ReceptorDeMensagem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/TelaChat$1EnviaMensagemListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/client/TelaChat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Client/br/com/ucb/cryptochat/main/Client.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/main/Main.class" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Client.class" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Reader.class" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Reader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/main/Main.java" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/IncomingConnectionHandler.java" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/IncomingConnectionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/services/ServerImplementation.java" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/services/ServerImplementation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Client.java" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Reader.java" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Reader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/source.txt" afterPath="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/source.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/resources/source.txt" afterPath="$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/resources/source.txt" />
     </list>
     <ignored path="CryptoChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,7 +49,7 @@
     <favorites_list name="CryptoChat" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/TelaChat.java" />
         <option value="$PROJECT_DIR$/src/br/com/ucb/cryptochat/model/IncomingConnectionHandler.java" />
         <option value="$PROJECT_DIR$/src/br/com/ucb/cryptochat/main/Main.java" />
         <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/interface/ClientServices.kt" />
@@ -132,13 +89,22 @@
         <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Writer.java" />
         <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/ObjectWriter.java" />
         <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/ObjectReader.java" />
-        <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Reader.java" />
         <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/interfaces/Server.java" />
-        <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Client.java" />
         <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/services/ServerImplementation.java" />
-        <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/main/Main.java" />
-        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/main/Client.java" />
         <option value="$PROJECT_DIR$/RMIRegistration/src/br/com/ucb/cryptochat/main/Main.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/EmissorDeMensagem.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/main/Client.java" />
+        <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Client.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/ReceptorDeMensagem.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/TelaChat.java" />
+        <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Reader.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/main/ClientMain.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/ChatScreen.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/ClientMain.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/MAin.java" />
+        <option value="$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/main/Main.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/Main.java" />
+        <option value="$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/ChatScreen.java" />
       </list>
     </option>
   </component>
@@ -183,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,6 +205,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -250,14 +217,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/crypto-chat" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -267,6 +233,22 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jonathan/Google Drive/BCC/8 Semestre/Sistemas Distrbuídos/Projeto CryptoChat/CryptoChat/SecureServer/src/br/com/ucb/cryptochat/main/Main.java" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="140" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="146" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="940" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="140" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="146" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="940" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -281,30 +263,10 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Client">
-    <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.com.ucb.cryptochat.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="br.com.ucb.cryptochat.main.Server" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chat" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="SecureServer" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="br.com.ucb.cryptochat.main.*" />
+          <option name="PATTERN" value="br.com.ucb.cryptochat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,7 +286,7 @@
     <configuration default="false" name="RMIRegistration" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="br.com.ucb.cryptochat.main.*" />
+          <option name="PATTERN" value="br.com.ucb.cryptochat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,6 +300,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="RMIRegistration" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.ucb.cryptochat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="br.com.ucb.cryptochat.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="localhost jonathan" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Client" />
       <envs />
       <method />
     </configuration>
@@ -763,37 +745,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Client" type="Application" factoryName="Application" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.com.ucb.cryptochat.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="br.com.ucb.cryptochat.main.Client" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Client" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Server" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SecureServer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RMIRegistration" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.SecureServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RMIRegistration" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.SecureServer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RMIRegistration" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SecureServer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RMIRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -808,12 +769,13 @@
       <option name="number" value="Default" />
       <updated>1465430721170</updated>
       <workItem from="1465430722645" duration="3620000" />
-      <workItem from="1465436163123" duration="31069000" />
+      <workItem from="1465436163123" duration="31477000" />
+      <workItem from="1465802166815" duration="10768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34689000" />
+    <option name="totallyTimeSpent" value="45865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -826,22 +788,22 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28674698" sideWeight="0.54005724" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23493975" sideWeight="0.4599428" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30120483" sideWeight="0.4599428" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28674698" sideWeight="0.4599428" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28613862" sideWeight="0.4599428" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -858,7 +820,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="54" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -867,46 +829,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/IncomingConnectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chat/src/br/com/ucb/cryptochat/main/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51724136">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chat/src/br/com/ucb/cryptochat/server/Registrador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28879312">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="24" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chat/src/br/com/ucb/cryptochat/server/Receptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12931034">
@@ -928,27 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/ReceptorDeMensagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12931034">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/EmissorDeMensagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12931034">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5204991">
           <caret line="249" column="29" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,15 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4438903">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/client/TelaChat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.143617">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="54" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07481297">
           <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,19 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/source.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16832918">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16759777">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3319149">
           <caret line="250" column="29" selection-start-line="250" selection-start-column="29" selection-end-line="250" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.065836295">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41312057">
           <caret line="435" column="31" selection-start-line="435" selection-start-column="31" selection-end-line="435" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45419356">
           <caret line="216" column="35" selection-start-line="216" selection-start-column="35" selection-end-line="216" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,17 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16759777">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5212766">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,23 +998,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/interfaces/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26184538">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/SecureServer/br/com/ucb/cryptochat/model/Writer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1209#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,43 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44516128">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24314214">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54239404">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/services/ServerImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53241897">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/util/SettingsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2244389">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,28 +1020,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RMIRegistration/src/br/com/ucb/cryptochat/main/Main.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/ListModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39538714">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.45634267">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/JList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33278418">
+          <caret line="1669" column="28" selection-start-line="1669" selection-start-column="28" selection-end-line="1669" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/event/ListSelectionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33278418">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/awt/BorderLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5760599">
+          <caret line="363" column="25" selection-start-line="363" selection-start-column="25" selection-end-line="363" selection-end-column="25" />
+          <folding>
+            <element signature="e#11133#11134#0" expanded="false" />
+            <element signature="e#11159#11160#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/JTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3703242">
+          <caret line="198" column="5" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
+          <folding>
+            <element signature="e#6951#6952#0" expanded="false" />
+            <element signature="e#6992#6993#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5851064">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51950353">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chat/src/br/com/ucb/cryptochat/main/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14962594">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/awt/FlowLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35162094">
+          <caret line="202" column="27" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
+          <folding>
+            <element signature="e#5403#5404#0" expanded="false" />
+            <element signature="e#5437#5438#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42643392">
+          <caret line="5402" column="5" selection-start-line="5402" selection-start-column="5" selection-end-line="5402" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/JLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14716312">
+          <caret line="174" column="48" selection-start-line="174" selection-start-column="34" selection-end-line="174" selection-end-column="48" />
+          <folding>
+            <element signature="e#5749#5750#0" expanded="false" />
+            <element signature="e#5802#5803#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/swing/JButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3067376">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="e#2787#2788#0" expanded="false" />
+            <element signature="e#2819#2820#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41489363">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/main/Client.java">
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/certificate.crt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42009884">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/resources/source.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16264294">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/javax/rmi/ssl/SslRMIServerSocketFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39898348">
+          <caret line="115" column="34" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RMIRegistration/src/br/com/ucb/cryptochat/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5425667">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/interfaces/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80737704">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5054645">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/model/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5409836">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/services/ServerImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72131145">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/ChatScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.362022">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/br/com/ucb/cryptochat/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60382515">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/util/SettingsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29891303">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SecureServer/src/br/com/ucb/cryptochat/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30807248">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.625">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding />
         </state>
       </provider>

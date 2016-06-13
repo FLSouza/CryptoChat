@@ -35,7 +35,7 @@ public class Main {
 
             // Configure Secure RMI
             Registry registry = LocateRegistry.getRegistry(null, Server.RMI_PORT, new SslRMIClientSocketFactory());
-            registry.bind("rmi://localhost/crypto_chat", serverImplementation);
+            registry.bind("rmi://crypto_chat", serverImplementation);
 
             while (true) {
                 // Wait for new connections
